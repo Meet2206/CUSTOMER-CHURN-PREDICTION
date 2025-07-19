@@ -1,4 +1,4 @@
-# Customer Churn Prediction
+# ☎️ Customer Churn Prediction 📈
 
 A comprehensive machine learning project to predict customer churn for a telecom company. This project involves data preprocessing, exploratory data analysis (EDA), feature scaling, training classification models (Logistic Regression and XGBoost), model evaluation, and feature importance visualization.
 
