@@ -1,4 +1,4 @@
-# ☎️ Customer Churn Prediction 📈
+# Customer Churn Prediction
 
 A comprehensive machine learning project to predict customer churn for a telecom company. This project involves data preprocessing, exploratory data analysis (EDA), feature scaling, training classification models (Logistic Regression and XGBoost), model evaluation, and feature importance visualization.
 
@@ -35,22 +35,24 @@ The dataset used is the **Telco Customer Churn dataset**, which contains custome
 
 ## Installation
 1. Clone this repository:
-   bash
+   ```bash
    git clone https://github.com/yourusername/customer-churn-prediction.git
    cd customer-churn-prediction
-
+````
 
 2. Install dependencies:
 
-   bash
+   ```bash
    pip install -r requirements.txt
-
+   ```
 
    If `requirements.txt` is not available:
 
-   bash
+   ```bash
    pip install pandas numpy matplotlib seaborn scikit-learn xgboost
-  
+   ```
+
+
 ## Project Workflow
 
 1. **Data Loading & Exploration**
@@ -84,12 +86,13 @@ The dataset used is the **Telco Customer Churn dataset**, which contains custome
 
    * Visualize top contributing features from the XGBoost model.
 
+
 ## Model Evaluation
 
 | Model               | Accuracy |
 | ------------------- | -------- |
-| Logistic Regression | 80%      |
-| XGBoost Classifier  | 82%      |
+| Logistic Regression | \~80%    |
+| XGBoost Classifier  | \~82%    |
 
 * XGBoost performed slightly better, handling feature interactions more effectively.
 * Feature importance visualization provided insights into key drivers of churn.
@@ -108,6 +111,7 @@ The dataset used is the **Telco Customer Churn dataset**, which contains custome
 
 * XGBoost offers better accuracy with insights via feature importance.
 
+
 ## Conclusion
 
 This project successfully demonstrates a typical machine learning pipeline:
@@ -120,8 +124,8 @@ This project successfully demonstrates a typical machine learning pipeline:
 
 Such insights can help telecom companies proactively retain customers likely to churn.
 
-## Project Structure
 
+## Project Structure
 
 customer-churn-prediction/
 │
@@ -131,7 +135,6 @@ customer-churn-prediction/
 ├── CUSTOMER_CHURN_PREDICTION.ipynb # Jupyter notebook version
 ├── requirements.txt
 └── README.md
-
 
 ## License
 
