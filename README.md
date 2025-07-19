@@ -35,22 +35,22 @@ The dataset used is the **Telco Customer Churn dataset**, which contains custome
 
 ## Installation
 1. Clone this repository:
-   ```bash
+   bash
    git clone https://github.com/yourusername/customer-churn-prediction.git
    cd customer-churn-prediction
-````
+
 
 2. Install dependencies:
 
-   ```bash
+   bash
    pip install -r requirements.txt
-   ```
+
 
    If `requirements.txt` is not available:
 
-   ```bash
+   bash
    pip install pandas numpy matplotlib seaborn scikit-learn xgboost
-   ```
+  
 ## Project Workflow
 
 1. **Data Loading & Exploration**
@@ -88,8 +88,8 @@ The dataset used is the **Telco Customer Churn dataset**, which contains custome
 
 | Model               | Accuracy |
 | ------------------- | -------- |
-| Logistic Regression | \~80%    |
-| XGBoost Classifier  | \~82%    |
+| Logistic Regression | 80%      |
+| XGBoost Classifier  | 82%      |
 
 * XGBoost performed slightly better, handling feature interactions more effectively.
 * Feature importance visualization provided insights into key drivers of churn.
@@ -122,7 +122,7 @@ Such insights can help telecom companies proactively retain customers likely to 
 
 ## Project Structure
 
-```
+
 customer-churn-prediction/
 │
 ├── data/
@@ -131,7 +131,7 @@ customer-churn-prediction/
 ├── CUSTOMER_CHURN_PREDICTION.ipynb # Jupyter notebook version
 ├── requirements.txt
 └── README.md
-```
+
 
 ## License
 
